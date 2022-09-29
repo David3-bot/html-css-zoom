@@ -38,11 +38,13 @@ border-radius: 5px;
     display:flex;
     flex-wrap: wrap;
     align-content: center;
-    
+    flex-direction: row;
+    padding: 1rem;
+    justify-content: space-around;
 }
 
 .card {
-    padding:1rem;
+    padding:0.1vw 0.1vw;
 }
 
 /*.menu {
